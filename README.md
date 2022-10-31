@@ -14,6 +14,8 @@ initially to install all necessary dependencies, and to run:
 ### `npm start`
 
 Runs the app in the development mode.\
+
+## Changing the explanations
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The link takes to parameters, `contextialised` and `embellished`. By default, they are set to `false`. You can change them directly using the link. There are four options, which will show the four possible explanation designs:
