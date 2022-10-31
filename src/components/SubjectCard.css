@@ -1,0 +1,50 @@
+.subject-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  box-shadow: rgb(59, 61, 62, 0.1) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.subject-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subject-description {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.subject-description b {
+  color: goldenrod;
+}
+
+.progress-emoji {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 32px;
+  background-color: wheat;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.progress-text {
+  color: wheat;
+  margin-top: 90px;
+  position: absolute;
+  font-size: 20px;
+}

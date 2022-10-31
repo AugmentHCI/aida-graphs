@@ -1,0 +1,44 @@
+.exercises-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.exercise-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.exercise-metadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.exercise-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.exercise-subject {
+  font-weight: 400;
+  font-size: 16px;
+  color: #87898b;
+  margin: 0;
+}
+
+.exercise-difficulty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exercise-divider {
+  border: 1px solid #f0f0f0;
+  width: 100%;
+}
